@@ -515,6 +515,19 @@ body{
 	margin-top: 10px;
 	color: white;
 }
+.more1{
+	max-width: 100%;
+	width: 146px;
+	height: 42px;
+	background-color: #F26419;
+	position: absolute;
+	display: none;
+}
+.more1 h1 {
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
 @media only screen and (max-width: 1080px){
 	.box1{
 		width: 300px;
@@ -573,10 +586,6 @@ body{
 	}
 	.box3 p {
 		margin-left: -50px;
-	}
-	
-	.popular{
-		margin-left: 30%;
 	}
 }
 @media only screen and (max-width: 1028px){
@@ -734,7 +743,7 @@ body{
 		margin-top: 50px;
 	}
 	.more{
-		top: 100%;
+		top: 120%;
 	}
 }
 
@@ -771,8 +780,14 @@ body{
 }
 @media only screen and (max-width:411px){
 	.more{
-		margin-top: 50px;
+		display: none;
+		margin-top: -350px;
 		left: 50%;
+	}
+	.more1{
+		display: block;
+		top: 105%;
+		left: 30%;
 	}
 }
 
@@ -841,10 +856,13 @@ body{
 	.box3{
 		margin-top: 40px;
 	}
-	.more{
+	.more1{
+		top: 100%;
+	}
+	/*.more{
 		margin-top: 120px;
 		left: 50%;
-	}
+	}*/
 }
 @media only screen and (max-width:367px){
 	.popular{
@@ -856,9 +874,9 @@ body{
 	.box3{
 		margin-top: 40px;
 	}
-	.more{
-		margin-top: 45%;
-		left: 50%;
+	.more1{
+		margin-top: 30%;
+		left: 30%;
 	}
 }
 @media only screen and (max-width:350px){
@@ -923,11 +941,14 @@ body{
 		margin-left: 20px;
 	}
 	.box3{
-		margin-top: 40px;
+		margin-top: 10px;
+	}
+	.more1{
+		display: none;
 	}
 	.more{
-		margin-top: 220px;
-		left: 50%;
+		display: block;
+		top: 105%;
 	}
 }
 /*seqcia 3*/
@@ -938,11 +959,10 @@ body{
 	width: 1088px;
 	height: 100%;
 	margin-top: -518px;
-	background-color: white;
 }
 .directors{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 0px;
 	left: 0px;
 	font-size: 30px;
@@ -951,7 +971,6 @@ body{
 	max-width: 100%;
 	width: 1088px;
 	height: 483px;
-	background-color: red;
 	position: relative;
 	top: 5%;
 	display: flex;
@@ -987,6 +1006,192 @@ body{
 	width: 260px;
 	opacity: 50%;
 }
+.texts{
+	text-align: center;
+	max-width: 100%;
+	width: 205px;
+	height: 94px;
+	margin-left: 30px;
+	margin-top: 21px;
+}
+.texts h1{
+	font-size: 20px;
+	color: #B7B7A4;
+}
+.texts p {
+	margin-top: -55px;
+	font-size: 18px;
+	color: #5A5D56;
+}
+@media only screen and (max-width:1555px){
+	.directors-div{
+		flex-wrap: wrap;
+	}
+	.director4{
+		display: none;
+	}
+}
+/*@media only screen and (max-width:1081px){
+	.directors{
+		left: 30%;
+	}
+}*/
+@media only screen and (max-width:896px){
+	.directors{
+		padding-top: 130px;
+	}
+	.directors-div{
+		padding-top: 130px;
+	}
+}
+@media only screen and (max-width:795px){
+	.director4{
+		display: block;
+	}
+	.director1,
+	.director3{
+		margin-left: 50px;
+	}
+	.director2,
+	.director4{
+		margin-right: 50px;
+	}
+}
+@media only screen and (max-width:768px){
+	.directors{
+		padding-top: 40px;
+	}
+	.directors-div{
+		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width:636px){
+	.director3,
+	.director4{
+		display: none;
+	}
+	.director1{
+		margin-left: 0px;
+	}
+	.director2{
+		margin-right: 0px;
+	}
+}
+@media only screen and (max-width:626px){
+	.directors-div{
+		padding-top: 540px;
+	}
+	.directors{
+		padding-top: 530px;
+	}
+}
+@media only screen and (max-width:543px){
+	.directors-div{
+		padding-top: 620px;
+	}
+	.directors{
+		padding-top: 610px;
+	}
+}
+@media only screen and (max-width:543px){
+	.directors{
+		margin-top: 130px;
+	}
+	.director1,
+	.director2{
+		margin-top: 140px;
+	}
+}
+@media only screen and (max-width:535px){
+	.director1,
+	.director2{
+		left: 20%;
+	}
+	.director2{
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width:411px){
+	.director1{
+		margin-top: 60px;
+	}
+	.directors{
+		padding-top: 530px;
+	}
+}
+
+@media only screen and (max-width:410px){
+	.directors{
+		font-size: 25px;
+		left: 10%;
+	}
+	.director1,
+	.director2{
+		left: 15%;
+	}
+}
+@media only screen and (max-width:381px){
+	.directors{
+		left: 5%;
+	}
+}
+@media only screen and (max-width:375px){
+	.directors{
+		margin-top:100px;
+	}
+	.director1{
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width:365px){
+	.directors{
+		left: 0px;
+	}
+}
+@media only screen and (max-width:361px){
+	.directors{
+		margin-top: -60px;
+	}
+	.director1{
+		margin-top: 100px;
+	}
+}
+@media only screen and (max-width:360px){
+	.directors{
+		margin-top:190px;
+	}
+	.director1{
+		margin-top: 110px;
+	}
+}
+
+@media only screen and (max-width:348px){
+	.director1,
+	.director2{
+		left: 5%;
+	}
+}
+@media only screen and (max-width:320px){
+	.directors{
+		margin-top: 240px;
+		font-size: 20px;
+		left: 10%;
+	}
+	.director1{
+		margin-top: 180px;
+	}
+	.director1,
+	.director2{
+		left: 10%;
+	}
+}
+
+
+
+
+
 
 
 
