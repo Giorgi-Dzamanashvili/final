@@ -1187,17 +1187,393 @@ body{
 		left: 10%;
 	}
 }
+/*seqcia4*/ 
+.section4{
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1090px;
+	height: 100%;
+	display: flex;
+	top: -400px;
+	left: 0%;
+}
+.section4 h1 {
+	top: 0px;
+	left: 0px;
+	font-size: 30px;
+	color: white;
+}
+.movies1{
+	position: absolute;
+	max-width: 100%;
+	width: 330px;
+	display: flex;
+	left: 30%;
+	word-spacing: 10px;
+	color: #B7B7A4;
+	font-size: 28px;
+	top: 17px;
+}
+.movies1 h2 {
+	padding-left: 10px;
+}
+.martian{
+	max-width: 100%;
+	width: 1088px;
+	margin-top: 103px;
+	margin-left: -90px;
+	height: 547px;
+	display: flex;
+}
+.martian1{
+	max-width: 100%;
+	width: 552px;
+	height: 547px;
+	background-color: white;
+	background-image: url(../img/martian.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.twomovies {
+	max-width: 100%;
+	width: 500px;
+	height: 547px;
+	margin-left: 36px;
+}
+.martian1::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 50%;
+}
+.themartian{
+	position: absolute;
+	max-width: 100%;
+	width: 374px;
+	height: 289px;
+	left: 29px;
+	top: 241px;
+}
+.themartian h1{
+	height: 80px;
+	color: white;
+	font-size: 60px;
+}
+.themartian h2{
+	color: white;
+	height: 50px;
+	font-size: 30px;
+}
+.watch{
+	max-width: 100%;
+	width: 145px;
+	height: 46px;
+	background-color: #F26419;
+	margin-top: 65px;
+}
+.watch h1 {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 9px;
+}
+.invisible,
+.seal {
+	background-color: black;
+	position: relative;
+	width: 100%;
+	width: 500px;
+	height: 256px;
+}
+.seal{
+	margin-top: 35px;
+}
+.invisible img {
+	width: 240px;
+	height: 256px;
+}
+.seal img {
+	width: 240px;
+	height: 256px;
+}
+.invisible-text{
+	position: absolute;
+	max-width: 100%;
+	width: 251px;
+	height: 250px;
+	bottom:0px;
+	left: 250px;
+}
+.invisible-text h1{
+	font-size: 25px;
+	color: #B7B7A4;
+	height: 50px;
+}
+.invisible-text h2{
+	font-size: 20px;
+	color: #B7B7A4;
+	height: 40px;
+}
+.invisible-watch{
+	max-width: 100%;
+	width: 108px;
+	height: 34px;
+	background-color: #F26419;
+	position: absolute;
+	margin-top: -37px;
+	left: 393px;
+}
+.invisible-watch h1 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 7px;
+}
+.invisible::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 50%;
+}
+.seal::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 50%;
+}
+@media only screen and (max-width:1105px){
+	.section4{
+		width: 99%;
+	}
+}
+@media only screen and (max-width:948px){
+	.themartian h1{
+		font-size: 50px;
+	}
+	.themartian h2{
+		font-size: 25px;
+	}
+	.watch h1 {
+		font-size: 20px;
+	}
+	.themartian{
+		left: 0px;
+	}
+}
+@media only screen and (max-width:897px){
+	.section4{
+		margin-top: 120px;
+	}
+	.themartian h1{
+		font-size: 40px;
+	}
+	.themartian h2{
+		font-size: 20px;
+	}
+	.watch h1 {
+		font-size: 18px;
+	}
+	.themartian{
+		left: 0px;
+	}
+}
+@media only screen and (max-width:796px){
+	.section4{
+		margin-top: 600px;
+		width: 100%;
+	}
+	.martian1{
+		display: none;
+	}
+	.invisible,
+	.seal{
+		left: 20%;
+	}
+}
+@media only screen and (max-width:796px){
+	.section4{
+		width: 100%;
+	}
+	.invisible,
+	.seal{
+		left: 15%;
+	}
+	.movies1{
+		left: 25%;
+	}
+}
+@media only screen and (max-width:769px){
+	.section4{
+		margin-top: 500px;
+	}
+}
+@media only screen and (max-width:686px){
+	.section4{
+		width: 100%;
+	}
+	.invisible,
+	.seal{
+		left: 10%;
+	}
+}
+@media only screen and (max-width:660px){
+	.invisible,
+	.seal{
+		left: 5%;
+	}
+}
+@media only screen and (max-width:627px){
+	.invisible,
+	.seal{
+		left: 0%;
+	}
+}
+@media only screen and (max-width:566px){
+	.invisible,
+	.seal{
+		width: 352px;
+		left: 12%;
+	}
+	.invisible-text {
+		left: 13%;
+		top: 12px;
+		text-align: center;
+	}
+	.invisible-watch{
+		left: 120px;
+	}
+	.movies1{
+		left: 18%;
+	}
+	.invisible img {
+		width: 352px;
+		height: 256px;
+	}
+	.seal img{
+		width: 352px;
+		height: 256px;
+	}
+}
+@media only screen and (max-width:545px){
+	.section4{
+		margin-top: 750px;
+	}
+}
+@media only screen and (max-width:541px){
+	.section4{
+		margin-top: 1000px;
+	}
+}
+@media only screen and (max-width:536px){
+	.section4{
+		margin-top: 1250px;
+	}
+}
+@media only screen and (max-width:490px){
+	.invisible,
+	.seal{
+		left: 5%;
+	}
+	.movies1{
+		left: 30%;
+		font-size: 20px;
+		width: 50px;
+	}
+}
+@media only screen and (max-width:427px){
+	.invisible,
+	.seal{
+		left: -20px;
+	}
+}
+@media only screen and (max-width:414px){
+	.section4{
+		margin-top: 1490px;
+	}
+	.invisible,
+	.seal{
+		left: 0%;
+	}
+}
+@media only screen and (max-width:411px){
+	.section4{
+		margin-top: 1400px;
+	}
+	.invisible,
+	.seal{
+		left: -2%;
+	}
+}
+@media only screen and (max-width:403px){
+	.movies1{
+		left: 25%;
+	}
+	.invisible img {
+		width: 240px;
+		height: 256px;
+	}
+	.seal img {
+		width: 240px;
+		height: 256px;
+	}
+	.invisible,
+	.seal{
+		width: 240px;
+		left: 8%;
+	}
+	.invisible-text{
+		left: 0%;
+	}
+	.invisible-watch{
+		left: 50px;
+	}
+}
+@media only screen and (max-width:376px){
+	.section4{
+		margin-top: 1300px;
+	}
+}
+@media only screen and (max-width:365px){
+	.section4 {
+		margin-top: 1420px;
+	}
+}
+@media only screen and (max-width:360px){
+	.section4{
+		margin-top: 1520px;
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width:348px){
+	.invisible,
+	.seal {
+		left: -6%;
+	}
+}
+@media only screen and (max-width:321px){
+	.section4{
+		margin-top: 1680px;
+	}
+	.invisible,
+	.seal{
+		left: 2%;
+	}
+}
 
 
 
