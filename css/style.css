@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	height: 100%;
@@ -371,19 +370,24 @@ body{
 	width: 1090px;
 	height: 100%;
 	margin-top: 18px;
+	background-color: white;
 }
 .popular{
 	position: absolute;
-	color: white;
+	color: purple;
 	top: 0px;
 	left: 0px;
 	font-size: 30px;
 }
 .boxebi{
+	margin: 0 auto;
 	max-width: 100%;
 	width: 1090px;
 	position: relative;
 	top: 43px;
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
 	display: flex;
 	justify-content: space-between;
 }
@@ -402,6 +406,7 @@ body{
 	max-width: 100%;
 	width: 352px;
 	height: 220px;
+	margin: 0 auto;
 }
 .john h1 {
 	position: absolute;
@@ -632,7 +637,7 @@ body{
 	}
 	.more {
 		display: block;
-		top: 50%;
+		top: 43%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -728,7 +733,7 @@ body{
 		margin-left: 0px;
 	}
 	.more{
-		top: 90%;
+		top: 85%;
 		left: 45%;
 	}
 }
@@ -740,10 +745,10 @@ body{
 }
 @media only screen and (max-width:540px){
 	.box3{
-		margin-top: 50px;
+		margin-top: -140px;
 	}
 	.more{
-		top: 120%;
+		top: 85%;
 	}
 }
 
@@ -765,7 +770,7 @@ body{
 		margin-left: 15px;
 	}
 	.box3{
-		margin-top: 50px;
+		margin-top: -150px;
 	}
 }
 @media only screen and (max-width:415px){
@@ -774,19 +779,19 @@ body{
 		margin-left: 30px;
 	}
 	.more{
-		top: 115%;
+		top: 85%;
 		left: 50%;
 	}
 }
 @media only screen and (max-width:411px){
 	.more{
 		display: none;
-		margin-top: -350px;
+		margin-top: -10px;
 		left: 50%;
 	}
 	.more1{
 		display: block;
-		top: 105%;
+		top: 80%;
 		left: 30%;
 	}
 }
@@ -833,6 +838,11 @@ body{
 	.box3 p {
 		margin-left: -50px;
 	}
+	.more1{
+		display: block;
+		top: 73%;
+		left: 30%;
+	}
 }
 @media only screen and (max-width:380px){
 	.box1,
@@ -840,12 +850,12 @@ body{
 		margin-left: 30px;
 	}
 	.box3{
-		margin-top: 50px;
+		margin-top: -250px;
 	}
 }
 @media only screen and (max-width:376px){
 	.box3{
-		margin-top: 50px;
+		margin-top: -250px;
 	}
 	.more{
 		top: 90%;
@@ -854,15 +864,15 @@ body{
 }
 @media only screen and (max-width:375px){
 	.box3{
-		margin-top: 40px;
+		margin-top: -280px;
 	}
 	.more1{
-		top: 100%;
+		top: 71%;
 	}
-	/*.more{
+	.more{
 		margin-top: 120px;
 		left: 50%;
-	}*/
+	}
 }
 @media only screen and (max-width:367px){
 	.popular{
@@ -872,10 +882,10 @@ body{
 
 @media only screen and (max-width:360px){
 	.box3{
-		margin-top: 40px;
+		margin-top: -270px;
 	}
 	.more1{
-		margin-top: 30%;
+		margin-top: 5%;
 		left: 30%;
 	}
 }
@@ -941,17 +951,23 @@ body{
 		margin-left: 20px;
 	}
 	.box3{
-		margin-top: 10px;
+		margin-top: -270px;
 	}
 	.more1{
 		display: none;
 	}
 	.more{
 		display: block;
-		top: 105%;
+		top: 63%;
 	}
 }
-/*seqcia 3*/
+@media only screen and (max-width:320px){
+	.more{
+		top: 63%;
+	}
+}
+
+/*seqcia 3
 .section3{
 	position: relative;
 	margin: 0 auto;
@@ -1543,9 +1559,9 @@ body{
 		left: 50px;
 	}
 }
-@media only screen and (max-width:376px){
+@media only screen and (max-width:375px){
 	.section4{
-		margin-top: 1300px;
+		margin-top: 1420px;
 	}
 }
 @media only screen and (max-width:365px){
@@ -1574,19 +1590,346 @@ body{
 		left: 2%;
 	}
 }
+/*seqcia5*/
+.section5 {
+	max-width: 100%;
+	width: 1088px;
+	margin-top: -660px;
+	margin-left: 21%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section5 h1 {
+	height: 45px;
+	margin-left: 0%;
+	color: white;
+	font-size: 30px;
+}
+.slider{
+	width: 1000px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.slides{
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+.slides input {
+	display: none;
+}
+.slide{
+	width: 20%;
+	transition: 2s;
+}
+.slide img {
+	width: 900px;
+	height: 500px;
+}
 
+.navigation-manual{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+.manual-btn{
+	border: 2px solid #F26419;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.navigation-manual label {
+	margin-top: -500px;
+	height: 10px;
+}
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+.manual-btn:hover{
+	background: #F26419;
+}
 
+#radio1:checked ~ .first {
+	margin-left: 0%;
+}
 
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
 
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
 
+#radio4:checked ~ .first {
+	margin-left: -60%;
+}
+@media only screen and (max-width:1600px){
+	.section5{
+		width: 1088px;
+		margin-left: 15%;
+	}
+	.slider{
 
+	}
+}
+@media only screen and (max-width:1302px){
+	.section5{
+		margin-left: 8%;
+	}
+	.slider{
+		margin-right: 50px;
+	}
+}
+@media only screen and (max-width:1201px){
+	.section5{
+		width: 90%;
+	}
+	.navigation-manual {
+		left: 15%;
+	}
+}
+@media only screen and (max-width:956px){
+	.section5{
+		flex-wrap: wrap;
+		margin-left: 0%;
+	}
+	.section5 h1 {
+		margin-left: -480px;
+	}
+	/*.slides {
+		width: 100%;
+	}*/
+	.navigation-manual{
+		width: 0px;
+	}
+}
+@media only screen and (max-width:956px){
+	.section5 h1 {
+		padding-left: 500px;
+	}
+}
+@media only screen and (max-width:414px){
+	.section5{
+		margin-top: -550px;
+		margin-left: 30px;
+	}
+	.slider{
+		margin-left: 30px;
+	}
+	.navigation-manual{
+		width: 0px;
+		left: 48%;
+	}
+}
+@media only screen and (max-width:375px){
+	.section5{
+		margin-top: -390px;
+		margin-left: 40px;
+	}
+	.section5 h1 {
+		margin-left: -650px;
+	}
+	.navigation-manual{
+		left: 48%;
+	}
+}
+@media only screen and (max-width:360px){
+	.section5 {
+		margin-top: -380px;
+	}
+	.slider{
+		padding-left: 70px;
+		width: 100%;
+	}
+	.navigation-manual{
+		width: 0px;
+		left: 48%;
+	}
+	.section5 h1 {
+		margin-left: -580px;
+	}
+	.slider{
+		margin-left: -80px;
+	}
+}
+@media only screen and (max-width:320px){
+	.section5{
+		margin-top: -290px;
+	}
+	.section5 h1 {
+		margin-left: -580px;
+	}
+	.slider{
+		margin-left: -80px;
+	}
+}
 
-
-
-
-
-
-
-
-
-
+/*sponsors*/
+.sponsors{
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1088px;
+	position: relative;
+	left: 0%;
+	display: flex;
+	justify-content: space-between;
+	height: 600px;
+}
+.sponsors h1 {
+	font-size: 30px;
+	position: absolute;
+	color: white;
+}
+.sponsor1,
+.sponsor2,
+.sponsor3,
+.sponsor4{
+	margin-top: 50px;
+	max-width: 100%;
+	width: 260px;
+	height: 260px;
+	background-color: black;
+	border-style: solid;
+	border-radius: 150px;
+	border-width: 3px;
+	border-color: #F26419;
+	display: flex;
+}
+.more2{
+	max-width: 100%;
+	width: 146px;
+	height: 42px;
+	background-color: #F26419;
+	position: absolute;
+	display: none;
+}
+.more2 h2 {
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+@media only screen and (max-width:970px){
+	.sponsors{
+		flex-wrap: wrap;
+		height: 300px;
+	}
+}
+@media only screen and (max-width:536px){
+	.sponsor1,
+	.sponsor2,
+	.sponsor3,
+	.sponsor4 {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.sponsor3,
+	.sponsor4 {
+		display: none;
+	}
+	.more2 {
+		display: block;
+		margin: 0 auto;
+		top: 200%;
+		left: 35%;
+	}
+}
+@media only screen and (max-width:460px){
+	.sponsor1,
+	.sponsor2{
+		width: 60%;
+		height: 97%;
+	}
+}
+@media only screen and (max-width:376px){
+	.sponsor1,
+	.sponsor2{
+		margin-left: 0px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.more2 {
+		left: 27%;
+	}
+	.sponsors{
+		width: 300px;
+	}
+}
+/*footer*/
+.footer{
+	position: relative;
+	max-width: 100%;
+	width: 1088px;
+	margin: 0 auto;
+}
+.movies5{
+	position: absolute;
+	max-width: 100%;
+	color: white;
+	font-size: 30px;
+	top: 27px;
+	left: 5%;
+	color: #B7B7A4;
+}
+.movies5 p {
+	color: #F26419;
+	position: absolute;
+	top: -10px;
+	font-size: 18px;
+	left: 88%
+}
+.bolo{
+	max-width: 100%;
+	width: 790px;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+.bolo a {
+	font-size: 25px;
+	color: black;
+	color: white;
+}
+.textebi5{
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 800px;
+	height: 150px;
+	margin-top: -800px;
+	display: flex;
+	justify-content: space-around;
+}
+.div1 {
+	margin-top: 10px;
+	max-width: 100%;
+	width: 200px;
+	height: 114px;
+}
+.div1 p {
+	height: 40px;
+	font-size: 15px;
+	color: #B7B7A4;
+}
+@media only screen and (max-width:971px){
+	.footer{
+		margin-top: 400px;
+	}
+}
+@media only screen and (max-width:467px){
+	.textebi5{
+		flex-wrap: wrap;
+	}
+	.div1{
+		margin: 15px;
+	}
+}
