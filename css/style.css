@@ -58,6 +58,9 @@ body{
 	align-items: center;
 	font-family: "poppins"
 }
+.btn:hover{
+	background-color: white;
+}
 .search{
 	max-width: 100%;
 	width: 16px;
@@ -169,6 +172,9 @@ body{
 .language h2 {
 	padding-left: 10px;
 	color: white;
+}
+.language:hover {
+	font-size: 18px;
 }
 @media only screen and (max-width: 1145px){
 	.getapp{
@@ -384,7 +390,6 @@ body{
 	position: relative;
 	top: 43px;
 	display: flex;
-	justify-content: space-between;
 	display: flex;
 	justify-content: space-between;
 }
@@ -398,6 +403,12 @@ body{
 }
 .box1{
 	position: relative;
+}
+.john:hover .play{
+	opacity: 1;
+}
+i:hover{
+	color: white;
 }
 .john{
 	max-width: 100%;
@@ -970,7 +981,7 @@ body{
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1088px;
-	margin-top: -550px;
+	/*margin-top: -550px;*/
 }
 .directors{
 	position: absolute;
@@ -1249,7 +1260,7 @@ body{
 	width: 1090px;
 	height: 100%;
 	display: flex;
-	top: -400px;
+	/*top: -400px;*/
 	left: 0%;
 }
 .section4 h1 {
@@ -1399,6 +1410,9 @@ body{
 	width: 100%;
 	background-color: black;
 	opacity: 50%;
+}
+.invisible-watch:hover{
+	background-color: black;
 }
 .seal::before{
 	content: "";
@@ -1608,7 +1622,7 @@ body{
 .section5 {
 	max-width: 100%;
 	width: 1088px;
-	margin-top: -660px;
+	/*margin-top: -660px;*/
 	margin-left: 21%;
 	height: 600px;
 	display: flex;
@@ -1870,7 +1884,7 @@ footer {
 	max-width: 100%;
 	width: 1088px;
 	margin: 0 auto;
-	margin-top: -550px;
+	/*margin-top: -550px;*/
 	height: 300px;
 }
 .movies5{
