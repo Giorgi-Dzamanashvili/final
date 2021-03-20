@@ -1679,7 +1679,7 @@ footer {
 	width: 1088px;
 	margin: 0 auto;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 100px;
 }
 .movies5{
 	position: absolute;
@@ -1700,12 +1700,13 @@ footer {
 }
 .bolo{
 	max-width: 100%;
-	width: 790px;
+	width: 800px;
 	height: 35px;
 	margin: 0 auto;
 	position: relative;
 	display: flex;
 	justify-content: space-around;
+	padding-top: 100px;
 }
 .bolo a {
 	font-size: 35px;
@@ -1721,6 +1722,7 @@ footer {
 	margin-top: 150px;
 	display: flex;
 	justify-content: space-around;
+	margin-right: 90px;
 }
 .div1 {
 	margin-top: 10px;
@@ -1733,23 +1735,40 @@ footer {
 	font-size: 20px;
 	color: #B7B7A4;
 }
-@media only screen and (max-width:971px){
-	.footer{
-		top: 230%;
+@media only screen and (max-width:999px){
+	.bolo{
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width:950px){
+	.bolo{
+		margin-left: -7%;
+	}
+}
+@media only screen and (max-width:894px){
+	.bolo{
+		margin-left: -13%;
+	}
+}
+@media only screen and (max-width:715px){
+	.bolo a {
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width:794px){
 	.footer{
-		top: 340%;
-	}
-	.movies5 {
-		left: 0%;
+		margin-top: 400px;
 	}
 }
 @media only screen and (max-width:600px){
 	.div1 p {
 		font-size: 16px;
 		height: 40px;
+	}
+}
+@media only screen and (max-width:544px){
+	.bolo{
+		flex-wrap: wrap;
 	}
 }
 @media only screen and (max-width:467px){
@@ -1759,7 +1778,10 @@ footer {
 	.div1{
 		margin: 15px;
 	}
+	.bolo{
+		margin-left: 0px;
+	}
 	.bolo a {
-		font-size: 25px;
+		margin: 10px;
 	}
 }
