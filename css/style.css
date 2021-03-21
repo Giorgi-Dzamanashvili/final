@@ -49,7 +49,6 @@ body{
 	font-size: 15px;
 	outline: none;
 	border-style: none;
-
 }
 .btn::placeholder {
 	color: black;
@@ -60,6 +59,7 @@ body{
 }
 .btn:hover{
 	background-color: white;
+	transition: 0.5s;
 }
 .search{
 	max-width: 100%;
@@ -175,6 +175,7 @@ body{
 }
 .language:hover {
 	font-size: 18px;
+	transition: 0.5s;
 }
 @media only screen and (max-width: 1145px){
 	.getapp{
@@ -350,12 +351,21 @@ body{
 		left: 88%;
 	}
 }
+@media only screen and (max-width: 360px){
+	.btn {
+		max-width: 220px;
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 345px){
 	.bar{
 		margin-left: -10px;
 	}
 	.icons{
 		margin-left: 35px;
+	}
+	.search{
+		left: 91%;
 	}
 }
 @media only screen and (max-width: 340px){
@@ -404,9 +414,6 @@ body{
 }
 .box1{
 	position: relative;
-}
-.john:hover .play{
-	opacity: 1;
 }
 i:hover{
 	color: white;
@@ -1161,6 +1168,10 @@ i:hover{
 	height: 50px;
 	font-size: 30px;
 }
+.themartian:hover .watch {
+	background: none;
+	transition: 0.5s;
+}
 .watch{
 	max-width: 100%;
 	width: 145px;
@@ -1237,6 +1248,7 @@ i:hover{
 }
 .invisible-watch:hover{
 	background-color: black;
+	transition: 0.5s;
 }
 .seal::before{
 	content: "";
@@ -1560,6 +1572,7 @@ i:hover{
 	border-width: 3px;
 	border-color: #F26419;
 	display: flex;
+	object-fit: cover;
 }
 .more2{
 	max-width: 100%;
@@ -1713,6 +1726,10 @@ footer {
 	color: white;
 	margin-left: 100px;
 }
+.bolo:hover a {
+	font-size: 30px;
+	transition: 0.75s;
+}
 .textebi5{
 	position: relative;
 	margin: 0 auto;
@@ -1758,6 +1775,9 @@ footer {
 @media only screen and (max-width:794px){
 	.footer{
 		margin-top: 400px;
+	}
+	.bolo:hover a {
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width:600px){
